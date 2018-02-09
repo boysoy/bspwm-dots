@@ -1,0 +1,52 @@
+! Desktop/Laptop Settings.
+
+URxvt*letterSpace: 0
+URxvt*allow_bold: true
+
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Separate settings for vim
+vim.internalBorder: 0 
+
+! Set terminal padding
+URxvt.internalBorder:   14
+URxvt.externalBorder:   14
+URxvt.depth:            32
+URxvt*terminalName:     rxvt-unicode-256color
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard,matcher
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.url-launcher: /usr/bin/firefox
+Urxvt.matcher.button:	1
+URxvt*loginShell:	true
+
+! -- font:
+URxvt*font: xft:Monospace:pixelsize=10
+URxvt*boldFont: xft:Monospace:pixelsize=10
+
+
+
+!Colors:  {{
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #E2E2E2
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+!}}
